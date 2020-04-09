@@ -4,16 +4,16 @@ Use this guide with other marlin versions at your own risk
 
 ## COMPILING FIRMWARE
 
-I used VSCode with the PlatformIO extension and Git GUI.
+I used VSCode with the PlatformIO extension and Git GUI.</br></br>
 Abrir VSC</br>
-Darle a Clone repository.
-Introducir "https://github.com/MarlinFirmware/Marlin/"
-Seleccionamos la carpeta donde se descargará el Marlin actual.
-Le damos a OPEN abajo a la izquierda.
-Modificamos el PLATFORMIO.INI con: default_envs = STM32F103RC_btt_512K
-Copiamos los archivos Confuguration.h y Configuration_adv.h de aqui y los sobreescribimos.
+Darle a Clone repository.</br>
+Introducir "https://github.com/MarlinFirmware/Marlin/"</br>
+Seleccionamos la carpeta donde se descargará el Marlin actual.</br>
+Le damos a OPEN abajo a la izquierda.</br>
+Modificamos el PLATFORMIO.INI con: default_envs = STM32F103RC_btt_512K</br>
+Copiamos los archivos Confuguration.h y Configuration_adv.h de aqui y los sobreescribimos.</br></br>
 
-Le damos a compilar.
+Le damos a compilar.</br>
 
 
 
