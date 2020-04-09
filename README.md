@@ -1,9 +1,22 @@
 ﻿# Marlin 3D Printer Firmware
+ ### Changes to the original Marlin 2.0.5.3 files for Ender 3 with SKR mini E3 v1.2.
+Use this guide with other marlin versions at your own risk
 
 ## COMPILING FIRMWARE
 
 I used VSCode with the PlatformIO extension and Git GUI.
-Chris Riley VSCode installation guide for Marlin 2.0.
+Abrir VSC</br>
+Darle a Clone repository.
+Introducir "https://github.com/MarlinFirmware/Marlin/"
+Seleccionamos la carpeta donde se descargará el Marlin actual.
+Le damos a OPEN abajo a la izquierda.
+Modificamos el PLATFORMIO.INI con: default_envs = STM32F103RC_btt_512K
+Copiamos los archivos Confuguration.h y Configuration_adv.h de aqui y los sobreescribimos.
+
+Le damos a compilar.
+
+
+
 You can find the firmware file in Marlin/.pio/build/STM32F103RC_btt_512K/firmware.bin
 
 
