@@ -9,7 +9,7 @@ Abrir VSC</br>
 Darle a Clone repository.</br>
 Introducir "https://github.com/MarlinFirmware/Marlin/"</br>
 Seleccionamos la carpeta donde se descargará el Marlin actual.</br>
-Le damos a OPEN abajo a la izquierda.</br>
+Le damos a OPEN (abajo a la derecha).</br>
 Modificamos el PLATFORMIO.INI con: default_envs = STM32F103RC_btt_512K</br>
 Copiamos los archivos Confuguration.h y Configuration_adv.h de aqui y los sobreescribimos.</br></br>
 
