@@ -89,7 +89,7 @@
 #define SHOW_BOOTSCREEN
 
 // Show the bitmap in Marlin/_Bootscreen.h on startup.
-//#define SHOW_CUSTOM_BOOTSCREEN
+#define SHOW_CUSTOM_BOOTSCREEN
 
 // Show the bitmap in Marlin/_Statusscreen.h on the status screen.
 #define CUSTOM_STATUS_SCREEN_IMAGE
@@ -132,7 +132,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-3"
+#define CUSTOM_MACHINE_NAME "SKR Ender-3"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -161,7 +161,7 @@
  * Additional options to configure custom E moves are pending.
  */
 //#define MK2_MULTIPLEXER
-#if ENABLED(MK2_MULTIPLEXER)
+#if ENABLED (MK2_MULTIPLEXER)
   // Override the default DIO selector pins here, if needed.
   // Some pins files may provide defaults for these pins.
   //#define E_MUX0_PIN 40  // Always Required
@@ -840,10 +840,6 @@
  *
  */
 //#define Z_MIN_PROBE_PIN 32 // Pin 32 is the RAMPS default
-
- #define FIL_RUNOUT_PIN PC14 // "PROBE" Switch with 2 pin connector
-
-//#define FIL_RUNOUT_PIN PC12 // "PT-DET" Switch with 3 pin connector
 
 /**
  * Probe Type
@@ -1594,7 +1590,7 @@
  *
  * View the current statistics with M78.
  */
-#define PRINTCOUNTER
+//#define PRINTCOUNTER
 
 //=============================================================================
 //============================= LCD and SD support ============================
@@ -1740,7 +1736,7 @@
 // If you have a speaker that can produce tones, enable it here.
 // By default Marlin assumes you have a buzzer with a fixed frequency.
 //
-//#define SPEAKER
+#define SPEAKER
 
 //
 // The duration and frequency for the UI feedback sound.
